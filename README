@@ -1,1 +1,30 @@
-Hello World!
+
+# **Codes and dataset for the experiments described in the paper.**
+
+## **File and directory description:**
+
+checkpoints: Contains the checkpoints used to save the training progress in case of any interruptions
+model: Contains model weights for the best model
+results: Prediction logits and probabilities of each iteration
+
+experiment_code.ipynb: The notebook used for the experiment
+requirements.txt: Contains the dependencies required to run the code
+original_and_preprocessed.zip: The dataset used in the experiment 
+
+How do install dependencies:
+
+```python
+pip install -r requirements.txt
+```
+
+How to run the code:
+
+1. Open the experiment_code.ipynb in Jupyter notebook
+2. Run the cells in the notebook
+3. The code will train the model and save the best model in the model directory
+4. The code will also save the prediction logits and probabilities in the results directory
+5. The code will also save the checkpoints in the checkpoints directory
+
+Note: The code was executed in an Amazon EC2 instance with GPU 
+It can also be executed in Google Colab. However, a GPU is required otherwise it is not feasible. 
+Remember to mount the drive before executing.
