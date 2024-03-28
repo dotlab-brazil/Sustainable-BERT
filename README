@@ -1,7 +1,7 @@
 
-# **Codes and dataset for the experiments described in the paper.**
+Codes and dataset for the experiments described in the paper.
 
-## **File and directory description:**
+File and directory description:
 
 checkpoints: Contains the checkpoints used to save the training progress in case of any interruptions
 model: Contains model weights for the best model
@@ -13,9 +13,7 @@ original_and_preprocessed.zip: The dataset used in the experiment
 
 How do install dependencies:
 
-```python
 pip install -r requirements.txt
-```
 
 How to run the code:
 
